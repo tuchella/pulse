@@ -93,7 +93,21 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 162.0, 74.0, 60.0, 22.0 ],
+									"style" : "",
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-57",
 									"maxclass" : "message",
@@ -279,6 +293,15 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-73", 0 ],
 									"disabled" : 0,
@@ -747,8 +770,8 @@
 							"parameter_longname" : "freq",
 							"parameter_shortname" : "freq",
 							"parameter_type" : 0,
-							"parameter_mmin" : 220.0,
-							"parameter_mmax" : 440.0,
+							"parameter_mmin" : 27.0,
+							"parameter_mmax" : 55.0,
 							"parameter_unitstyle" : 3,
 							"parameter_exponent" : 1.055
 						}
@@ -789,6 +812,8 @@
 							"parameter_shortname" : "fm_amt",
 							"parameter_type" : 1,
 							"parameter_mmax" : 100.0,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0.0 ],
 							"parameter_unitstyle" : 5,
 							"parameter_steps" : 101
 						}
@@ -872,6 +897,8 @@
 							"parameter_shortname" : "pwm_amt",
 							"parameter_type" : 1,
 							"parameter_mmax" : 100.0,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0.0 ],
 							"parameter_unitstyle" : 5,
 							"parameter_steps" : 101
 						}
@@ -979,7 +1006,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 86.486486, 0.441379, 0, 600.0, 0.427586, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 91.666667, 1.0, 0, 220.833333, 0.622222, 0, 454.166667, 0.6, 0, 600.0, 0.0, 0 ],
 					"clicksustain" : 0,
 					"domain" : 600.0,
 					"id" : "obj-3",
@@ -1007,14 +1034,14 @@
 					"restore" : 					{
 						"duration" : [ 600.0 ],
 						"fm_amt" : [ 0.0 ],
-						"freq" : [ 220.0 ],
-						"pw" : [ 59.0 ],
-						"pwm_amt" : [ 88.0 ]
+						"freq" : [ 55.0 ],
+						"pw" : [ 50.0 ],
+						"pwm_amt" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u173002847"
+					"varname" : "u808004417"
 				}
 
 			}
@@ -1319,7 +1346,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 782.0, 206.0, 56.0, 22.0 ],
-					"sig" : 0.88,
+					"sig" : 0.0,
 					"style" : ""
 				}
 
@@ -1362,7 +1389,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 651.0, 206.0, 56.0, 22.0 ],
-					"sig" : 0.59,
+					"sig" : 0.5,
 					"style" : ""
 				}
 
@@ -1477,7 +1504,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 323.0, 182.0, 56.0, 22.0 ],
-					"sig" : 220.0,
+					"sig" : 55.0,
 					"style" : ""
 				}
 
@@ -1552,7 +1579,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.001, 0, 0.002, 1.0, 0, 0.59, 1.0, 0, 0.591, 0.0, 0, 1.0, 0.0, 0, 888.297913, 0.426667, 0, 1000.0, 0.0, 2 ],
+					"addpoints" : [ 0.0, 0.001, 0, 0.002, 1.0, 0, 0.5, 1.0, 0, 0.501, 0.0, 0, 1.0, 0.0, 0, 888.297913, 0.426667, 0, 1000.0, 0.0, 2 ],
 					"background" : 1,
 					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 0.988235 ],
 					"clickadd" : 0,
