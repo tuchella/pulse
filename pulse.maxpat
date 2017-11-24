@@ -96,11 +96,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 381.0, 1164.0, 158.0, 22.0 ],
 					"restore" : 					{
-						"lfo00" : [ 5 ],
-						"lfo01" : [ 93 ],
-						"lfo02" : [ 75 ],
-						"lfo03" : [ 127 ],
-						"patchbay" : [ 0, 0, 0 ]
+						"lfo00" : [ 10 ],
+						"lfo01" : [ 96 ],
+						"lfo02" : [ 14 ],
+						"lfo03" : [ 16 ],
+						"patchbay" : [ 0, 6, 1, 1, 0, 1, 1, 2, 1, 2, 7, 1, 3, 5, 1 ]
 					}
 ,
 					"style" : "",
@@ -142,37 +142,6 @@
 					"pattrstorage" : "pulses",
 					"presentation" : 1,
 					"presentation_rect" : [ 639.0, 618.0, 356.0, 75.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 974.0, 526.0, 40.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr",
-					"varname" : "u332000427"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 736.0, 1273.0, 100.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -2612,80 +2581,80 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-104", 4 ],
+					"destination" : [ "obj-104", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 551.0, 651.0, 1014.833333, 651.0 ],
+					"midpoints" : [ 551.0, 651.0, 1098.666667, 651.0 ],
 					"source" : [ "obj-55", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-104", 1 ],
+					"destination" : [ "obj-104", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 540.5, 651.0, 763.333333, 651.0 ],
+					"midpoints" : [ 540.5, 651.0, 847.166667, 651.0 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-157", 4 ],
+					"destination" : [ "obj-157", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 572.0, 774.0, 1014.833333, 774.0 ],
+					"midpoints" : [ 572.0, 774.0, 1098.666667, 774.0 ],
 					"source" : [ "obj-55", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-157", 1 ],
+					"destination" : [ "obj-157", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 561.5, 774.0, 763.333333, 774.0 ],
+					"midpoints" : [ 561.5, 774.0, 847.166667, 774.0 ],
 					"source" : [ "obj-55", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-162", 4 ],
+					"destination" : [ "obj-162", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 593.0, 891.0, 1015.833333, 891.0 ],
+					"midpoints" : [ 593.0, 891.0, 1099.916667, 891.0 ],
 					"source" : [ "obj-55", 5 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-162", 1 ],
+					"destination" : [ "obj-162", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 582.5, 891.0, 763.583333, 891.0 ],
+					"midpoints" : [ 582.5, 891.0, 847.666667, 891.0 ],
 					"source" : [ "obj-55", 4 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-167", 4 ],
+					"destination" : [ "obj-167", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 614.0, 1008.0, 1014.833333, 1008.0 ],
+					"midpoints" : [ 614.0, 1008.0, 1098.666667, 1008.0 ],
 					"source" : [ "obj-55", 7 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-167", 1 ],
+					"destination" : [ "obj-167", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 603.5, 1008.0, 763.333333, 1008.0 ],
+					"midpoints" : [ 603.5, 1008.0, 847.166667, 1008.0 ],
 					"source" : [ "obj-55", 6 ]
 				}
 
@@ -2705,15 +2674,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-80", 0 ]
 				}
 
 			}
