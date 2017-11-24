@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1532.0, 749.0 ],
+		"rect" : [ 43.0, 86.0, 972.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -161,7 +161,7 @@
 ,
 					"style" : "",
 					"text" : "pattr",
-					"varname" : "u467009920"
+					"varname" : "u332000427"
 				}
 
 			}
@@ -2487,7 +2487,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 647.5, 651.0, 679.5, 651.0 ],
-					"order" : 3,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2498,7 +2498,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 647.5, 774.0, 679.5, 774.0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2509,7 +2509,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 647.5, 891.0, 679.5, 891.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2520,7 +2520,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 647.5, 1008.0, 679.5, 1008.0 ],
-					"order" : 0,
+					"order" : 3,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2746,23 +2746,29 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-157::obj-101" : [ "dial[5]", "dial", 0 ],
-			"obj-162::obj-101" : [ "dial[3]", "dial", 0 ],
-			"obj-104::obj-101" : [ "dial[7]", "dial", 0 ],
-			"obj-167::obj-28" : [ "dial[1]", "dial", 0 ],
-			"obj-157::obj-28" : [ "dial[4]", "dial", 0 ],
-			"obj-167::obj-101" : [ "dial", "dial", 0 ],
-			"obj-162::obj-28" : [ "dial[2]", "dial", 0 ],
-			"obj-104::obj-28" : [ "dial[6]", "dial", 0 ]
+			"obj-162::obj-13" : [ "freq[1]", "freq", 0 ],
+			"obj-162::obj-55" : [ "fm_amt[1]", "fm_amt", 0 ],
+			"obj-162::obj-53" : [ "pw[1]", "pw", 0 ],
+			"obj-162::obj-43" : [ "pwm_amt[1]", "pwm_amt", 0 ],
+			"obj-167::obj-34" : [ "duration", "duration", 0 ],
+			"obj-167::obj-43" : [ "pwm_amt", "pwm_amt", 0 ],
+			"obj-157::obj-34" : [ "duration[2]", "duration", 0 ],
+			"obj-104::obj-53" : [ "pw[3]", "pw", 0 ],
+			"obj-104::obj-43" : [ "pwm_amt[3]", "pwm_amt", 0 ],
+			"obj-167::obj-55" : [ "fm_amt", "fm_amt", 0 ],
+			"obj-167::obj-13" : [ "freq", "freq", 0 ],
+			"obj-104::obj-34" : [ "duration[3]", "duration", 0 ],
+			"obj-157::obj-13" : [ "freq[2]", "freq", 0 ],
+			"obj-162::obj-34" : [ "duration[1]", "duration", 0 ],
+			"obj-157::obj-55" : [ "fm_amt[2]", "fm_amt", 0 ],
+			"obj-157::obj-53" : [ "pw[2]", "pw", 0 ],
+			"obj-157::obj-43" : [ "pwm_amt[2]", "pwm_amt", 0 ],
+			"obj-167::obj-53" : [ "pw", "pw", 0 ],
+			"obj-104::obj-13" : [ "freq[3]", "freq", 0 ],
+			"obj-104::obj-55" : [ "fm_amt[3]", "fm_amt", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "pulse_texts.txt",
-				"bootpath" : "D:/max/pulse",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pulse~.maxpat",
 				"bootpath" : "D:/max/pulse",
 				"type" : "JSON",
@@ -2794,8 +2800,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
