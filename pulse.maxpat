@@ -51,8 +51,9 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 1152.0, 1358.0, 403.0, 196.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 403.0, 196.0 ],
+					"patching_rect" : [ 1199.0, 1340.0, 403.0, 196.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 997.0, 440.0, 403.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -260,11 +261,11 @@
 
 							}
  ],
-						"lfo00" : [ 63 ],
-						"lfo01" : [ 10 ],
-						"lfo02" : [ 11 ],
-						"lfo03" : [ 11 ],
-						"patchbay" : [ 0, 0, 1, 1, 3, 1, 2, 5, 1, 3, 6, 1 ]
+						"lfo00" : [ 31 ],
+						"lfo01" : [ 55 ],
+						"lfo02" : [ 19 ],
+						"lfo03" : [ 44 ],
+						"patchbay" : [ 0, 0, 1, 1, 3, 1, 1, 5, 1, 3, 6, 1 ]
 					}
 ,
 					"style" : "",
@@ -296,7 +297,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bubblesize" : 31,
+					"bubblesize" : 32,
 					"id" : "obj-19",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -305,7 +306,7 @@
 					"patching_rect" : [ 416.0, 716.0, 100.0, 40.0 ],
 					"pattrstorage" : "pulses",
 					"presentation" : 1,
-					"presentation_rect" : [ 639.0, 618.0, 356.0, 75.0 ],
+					"presentation_rect" : [ 414.0, 440.0, 223.0, 192.0 ],
 					"style" : ""
 				}
 
@@ -644,7 +645,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1152.0, 1589.0, 45.0, 45.0 ],
+					"patching_rect" : [ 1199.0, 1550.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 358.0, 20.5, 45.0, 45.0 ],
 					"style" : ""
@@ -669,7 +670,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1199.0, 1136.0, 351.0, 171.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.0, 440.0, 356.0, 171.5 ],
+					"presentation_rect" : [ 639.0, 440.0, 356.0, 196.0 ],
 					"viewvisibility" : 1
 				}
 
