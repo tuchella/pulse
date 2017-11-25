@@ -121,7 +121,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 330.0, 19.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 328.0, 18.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -136,7 +135,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 257.0, 19.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 257.0, 20.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -151,7 +149,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 183.0, 19.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 179.0, 19.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -179,7 +176,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 359.0, 415.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 354.0, 415.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -200,6 +196,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -215,6 +212,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -230,6 +228,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -245,6 +244,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -260,6 +260,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -275,6 +276,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -290,6 +292,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -305,6 +308,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
+					"knobcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -320,7 +324,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"knobcolor" : [ 0.670588, 0.74902, 0.807843, 1.0 ],
+					"knobcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -336,7 +340,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"knobcolor" : [ 0.670588, 0.74902, 0.807843, 1.0 ],
+					"knobcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
