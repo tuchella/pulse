@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 43.0, 86.0, 972.0, 731.0 ],
+		"rect" : [ 34.0, 77.0, 1532.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,133 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 1152.0, 1358.0, 403.0, 196.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 403.0, 196.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"annotation_name" : "",
+						"parameter_enable" : 1,
+						"patchername" : "ChamberVerb.amxd",
+						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb/ChamberVerb.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "ChamberVerb.amxd",
+							"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb/ChamberVerb.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"1_delay" : 49.599998,
+									"1_feedback" : 75.0,
+									"2_delay" : 34.650002,
+									"2_feedback" : 72.0,
+									"3_delay" : 24.200001,
+									"3_feedback" : 69.0,
+									"45_delay" : 17.799999,
+									"45_feedback" : 64.0,
+									"45_moddepth" : 0.0,
+									"45_modfreq" : 0.0,
+									"67_delay" : 10.8,
+									"67_feedback" : 66.0,
+									"filter_cutoff" : 20000.0,
+									"live.toggle" : 0.0,
+									"wet_dry" : 23.0
+								}
+
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ChamberVerb.amxd",
+									"origin" : "ChamberVerb.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "ChamberVerb.amxd",
+										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb/ChamberVerb.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"1_delay" : 49.599998,
+												"1_feedback" : 75.0,
+												"2_delay" : 34.650002,
+												"2_feedback" : 72.0,
+												"3_delay" : 24.200001,
+												"3_feedback" : 69.0,
+												"45_delay" : 17.799999,
+												"45_feedback" : 64.0,
+												"45_moddepth" : 0.0,
+												"45_modfreq" : 0.0,
+												"67_delay" : 10.8,
+												"67_feedback" : 66.0,
+												"filter_cutoff" : 20000.0,
+												"live.toggle" : 0.0,
+												"wet_dry" : 23.0
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "ChamberVerb.amxd",
+										"filename" : "ChamberVerb.amxd.maxsnap",
+										"filepath" : "~/Documents/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "a93bcb4e0c1ffff7ffbb3dac882d34ac"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"style" : "",
+					"text" : "amxd~ ChamberVerb.amxd",
+					"varname" : "amxd~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
@@ -94,13 +221,50 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 381.0, 1164.0, 158.0, 22.0 ],
+					"patching_rect" : [ 206.0, 1173.0, 158.0, 22.0 ],
 					"restore" : 					{
-						"lfo00" : [ 10 ],
-						"lfo01" : [ 96 ],
-						"lfo02" : [ 14 ],
-						"lfo03" : [ 16 ],
-						"patchbay" : [ 0, 6, 1, 1, 0, 1, 1, 2, 1, 2, 7, 1, 3, 5, 1 ]
+						"amxd~" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "ChamberVerb.amxd",
+								"origin" : "ChamberVerb.amxd",
+								"type" : "amxd",
+								"subtype" : "Undefined",
+								"embed" : 1,
+								"snapshot" : 								{
+									"name" : "ChamberVerb.amxd",
+									"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb/ChamberVerb.amxd",
+									"valuedictionary" : 									{
+										"parameter_values" : 										{
+											"1_delay" : 49.599998,
+											"1_feedback" : 75.0,
+											"2_delay" : 34.650002,
+											"2_feedback" : 72.0,
+											"3_delay" : 24.200001,
+											"3_feedback" : 69.0,
+											"45_delay" : 17.799999,
+											"45_feedback" : 64.0,
+											"45_moddepth" : 0.0,
+											"45_modfreq" : 0.0,
+											"67_delay" : 10.8,
+											"67_feedback" : 66.0,
+											"filter_cutoff" : 20000.0,
+											"live.toggle" : 0.0,
+											"wet_dry" : 23.0
+										}
+
+									}
+
+								}
+
+							}
+ ],
+						"lfo00" : [ 63 ],
+						"lfo01" : [ 10 ],
+						"lfo02" : [ 11 ],
+						"lfo03" : [ 11 ],
+						"patchbay" : [ 0, 0, 1, 1, 3, 1, 2, 5, 1, 3, 6, 1 ]
 					}
 ,
 					"style" : "",
@@ -163,7 +327,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 670.0, 1017.0, 522.0, 83.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.0, 357.0, 520.0, 81.0 ],
+					"presentation_rect" : [ 639.0, 357.0, 780.0, 81.0 ],
 					"varname" : "ch03",
 					"viewvisibility" : 1
 				}
@@ -186,7 +350,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 670.0, 905.0, 523.5, 83.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.0, 274.0, 520.0, 77.0 ],
+					"presentation_rect" : [ 639.0, 274.0, 780.0, 77.0 ],
 					"varname" : "ch02",
 					"viewvisibility" : 1
 				}
@@ -209,7 +373,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 670.0, 788.0, 522.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.0, 189.0, 520.0, 79.0 ],
+					"presentation_rect" : [ 639.0, 189.0, 780.0, 79.0 ],
 					"varname" : "ch01",
 					"viewvisibility" : 1
 				}
@@ -480,7 +644,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1039.0, 1305.0, 45.0, 45.0 ],
+					"patching_rect" : [ 1152.0, 1589.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 358.0, 20.5, 45.0, 45.0 ],
 					"style" : ""
@@ -527,7 +691,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 670.0, 665.0, 522.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.0, 102.0, 520.0, 81.0 ],
+					"presentation_rect" : [ 639.0, 102.0, 780.0, 81.0 ],
 					"varname" : "ch00",
 					"viewvisibility" : 1
 				}
@@ -2114,7 +2278,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-114", 1 ],
+					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-113", 1 ]
@@ -2123,7 +2287,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-114", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-113", 0 ]
@@ -2661,6 +2825,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-114", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2712,12 +2894,17 @@
 			"obj-162::obj-43" : [ "pwm_amt[1]", "pwm_amt", 0 ],
 			"obj-167::obj-34" : [ "duration", "duration", 0 ],
 			"obj-167::obj-43" : [ "pwm_amt", "pwm_amt", 0 ],
+			"obj-157::obj-29" : [ "filter[2]", "filter", 0 ],
 			"obj-157::obj-34" : [ "duration[2]", "duration", 0 ],
 			"obj-104::obj-53" : [ "pw[3]", "pw", 0 ],
 			"obj-104::obj-43" : [ "pwm_amt[3]", "pwm_amt", 0 ],
 			"obj-167::obj-55" : [ "fm_amt", "fm_amt", 0 ],
 			"obj-167::obj-13" : [ "freq", "freq", 0 ],
+			"obj-167::obj-29" : [ "filter", "filter", 0 ],
 			"obj-104::obj-34" : [ "duration[3]", "duration", 0 ],
+			"obj-6" : [ "amxd~", "amxd~", 0 ],
+			"obj-104::obj-29" : [ "filter[3]", "filter", 0 ],
+			"obj-162::obj-29" : [ "filter[1]", "filter", 0 ],
 			"obj-157::obj-13" : [ "freq[2]", "freq", 0 ],
 			"obj-162::obj-34" : [ "duration[1]", "duration", 0 ],
 			"obj-157::obj-55" : [ "fm_amt[2]", "fm_amt", 0 ],
@@ -2743,6 +2930,27 @@
 , 			{
 				"name" : "pulses.json",
 				"bootpath" : "D:/max/pulse",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ChamberVerb.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ChamberVerb.amxd",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chamber.Punch~.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pluggo.dryWet2~.maxpat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
